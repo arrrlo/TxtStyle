@@ -8,9 +8,11 @@ import sys
 DEFAULT_STYLE = "\033[m"
 NAMED_STYLE_MAP = {
     "bold" : "\033[1m",
+    "black" : "\033[30m",
     "underline" : "\033[4m",
     "hidden" : "\033[4m",
-    "grey" : "\033[30m",
+    "grey" : "\033[90m",
+    "lightgray" : "\033[37m",
     "red" : "\033[31m",
     "green" : "\033[32m",
     "yellow" : "\033[33m",
